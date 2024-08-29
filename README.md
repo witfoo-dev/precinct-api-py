@@ -12,6 +12,9 @@ See: `example.py` for usage examples.
 
 # Current Calls
 - `login()` - Login to Precinct using url, username and password in setttings file
+- `get(endpoint)` - Generic GET
+- `post(endpoint, data)` - Generic POST
+- `put(endpoint, data)` - Generic PUT
 - `create_leadrule(json)` - Post a new lead rule to Precinct
 - `get_leadrules()` - Get all search results
 - `create_search_job(json)` - Post a new search job to Precinct
